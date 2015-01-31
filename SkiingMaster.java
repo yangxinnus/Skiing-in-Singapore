@@ -144,7 +144,6 @@ public class SkiingMaster {
             // create each row at a time
             populateRow(i, scanner.nextLine());
         }
-        initializeFlags();
     }
 
     private static void populateRow(int row, String input) {
